@@ -9,7 +9,14 @@ Sebuah model kecerdasan artifisial jaringan saraf untuk mengelompokkan citra dig
 3. Buka berkas berekstensi *.ipynb* dengan Google Colaboratory anda
 4. Jalankan seluruh _cell_
 ## Bagaimana cara kerjanya?
-
+1. Citra digital dari _dataset_ dikelompokkan menurut kategori (mawar, matahari, _dandelion_)
+2. Citra digital diolah menjadi ukuran 320x240 pixel
+3. Citra digital dikonversi menjadi _grayscale_
+4. Citra digital dibagi menjadi data pembelajaran dan tes dengan rasio 80:20
+5. Citra digital dimasukkan ke dalam struktur data Numpy Array
+6. Model dilatih dengan data pembelajaran selama 50 repetisi
+7. Model melakukan prediksi pada data tes
+8. Visualisasi akurasi dan _error_ dari prediksi model
 ## Pembuat
 * [Alexius Adhitya K](https://github.com/debugvelop)
 * [Daniel Suranta Sitepu](https://github.com/danielsitepu36)
